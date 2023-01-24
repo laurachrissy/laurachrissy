@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disneyland Photography Blog</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero-image">
+        <img src="disneyland.jpg" alt="Disneyland">
+        <h1>Welcome to Disneyland Photography Blog</h1>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of photography enthusiasts who love capturing the magic of Disneyland through our lenses. On our blog, you'll find tips and tricks for taking great photos at Disneyland, as well as a gallery of our favorite shots.</p>
+      </section>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="photo-grid">
+          <img src="disneyland-photo1.jpg" alt="Disneyland Photo 1">
+          <img src="disneyland-photo2.jpg" alt="Disneyland Photo 2">
+          <img src="disneyland-photo3.jpg" alt="Disneyland Photo 3">
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message
